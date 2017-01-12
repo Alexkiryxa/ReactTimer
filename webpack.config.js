@@ -47,7 +47,7 @@ module.exports = {
         ]
     },
     sassLoader: {
-        includePath: [
+        includePaths: [
             path.resolve(__dirname, './node_modules/foundation-sites/scss')
         ]
     },
