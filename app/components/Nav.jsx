@@ -9,10 +9,10 @@ let Nav = React.createClass({
                     <ul className="menu">
                         <li className="menu-text">React Timer App</li>
                         <li>
-                            <IndexLink to="/" activeClassName="activeMenuItem">Timer</IndexLink>
+                            <IndexLink to="/" activeClassName="active-menu-link">Timer</IndexLink>
                         </li>
                         <li>
-                            <Link to="/" activeClassName="activeMenuItem">Countdown</Link>
+                            <Link to="/countdown" activeClassName="active-menu-link">Countdown</Link>
                         </li>
                     </ul>
                 </div>
